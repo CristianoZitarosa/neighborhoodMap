@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Galada|Patua+One');
+
+.header {
+  margin: 0;
+  height: 200px;
+  font-family: 'Galada', cursive, sans-serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 30px;
+  background-color: #232323;
+  color: #fff;
+}
+
+.header h1 {
+  margin: 0;
+  line-height: 190px;
+}
+
+.menu-button {
+  font-family: 'Patua One', sans-serif;
+  position: absolute;
+  font-size: 20px;
+  top: 140px;
+  left: 30px;
+  background-color: #ffc700;
+  padding: 10px;
+  width: 130px;
+  border-radius: 3px;
+  border: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+
+  .header {
+    height: 118px;
+    font-size: 11px;
+  }
+
+  .header h1 {
+    line-height: 96px;
+  }
+
+  .menu-button {
+    top: 66px;
+    width: 111px;
+    font-size: 16px;
+    padding: 8px;
+  }
+
+}

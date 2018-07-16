@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+
+*:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(0,194,255,.8);
+}
+
+.container {
+  /* display: flex; */
+  width: 100%;
+  height: 79vh;
+}
+
+.marker-title {
+  font-style: italic;
+}
+
+.marker-info {
+  width: 200px;
+}
+
+.marker-link {
+  margin-left: 5px;
+}
+
+#map {
+  height: 79vh;
+  width: 100%
+}
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+
+  #map {
+    height: 82vh;
+    width: 100%
+  }
+
+}
+
+@media screen and (min-width: 700px) {
+
+  .marker-title,
+  .marker-info,
+  .marker-link {
+    font-size: 18px;
+  }
+
+}

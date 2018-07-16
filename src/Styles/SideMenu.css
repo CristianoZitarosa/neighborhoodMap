@@ -1,0 +1,26 @@
+.sidebar {
+  background-color:#232323;
+  color: #fff;
+  width: 310px;
+  position: absolute;
+  height: 79vh;
+  z-index: 10;
+  transition: .5s;
+  overflow: hidden;
+}
+
+.menu-closed {
+  left: -100%;
+}
+
+.menu-open {
+  left: 0%;
+}
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+
+  .sidebar {
+    height: 82vh;
+  }
+
+}

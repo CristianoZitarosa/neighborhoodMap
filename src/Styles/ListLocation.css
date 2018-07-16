@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+.search-field,
+li {
+  font-family: 'Patua One', sans-serif;
+  font-size: 20px;
+}
+
+.search-field {
+  margin: 10px 10px 10px 30px;
+  padding: 10px;
+  border: none;
+}
+
+li {
+  width: 180px;
+}
